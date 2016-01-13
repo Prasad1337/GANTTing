@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+<booleanAttribute key="append.args" value="true"/>
+<stringAttribute key="application" value="net.sourceforge.ganttproject.GanttProject"/>
+<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="automaticAdd" value="false"/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearws" value="false"/>
+<booleanAttribute key="default" value="false"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-net.sourceforge.ganttproject.GanttProject"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dosgi.requiredJavaVersion=1.6 -Xms40m -Xmx512m"/>
+<booleanAttribute key="pde.generated.config" value="true"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<stringAttribute key="selected_target_plugins" value="javax.annotation*1.1.0.v201209060031,javax.inject*1.0.0.v20091030,javax.servlet*3.0.0.v201112011016,javax.xml*1.3.4.v201005080400,org.eclipse.core.contenttype*3.4.200.v20130326-1255,org.eclipse.core.jobs*3.5.300.v20130429-1813,org.eclipse.core.runtime*3.9.100.v20131218-1515,org.eclipse.core.runtime.compatibility*3.2.200.v20130326-1255,org.eclipse.core.runtime.compatibility.registry*3.5.200.v20130514-1256,org.eclipse.equinox.app*1.3.100.v20130327-1442,org.eclipse.equinox.common*3.6.200.v20130402-1505,org.eclipse.equinox.preferences*3.5.100.v20130422-1538,org.eclipse.equinox.registry*3.5.301.v20130717-1549,org.eclipse.osgi*3.9.1.v20140110-1610,org.eclipse.osgi.services*3.3.100.v20130513-1956,org.eclipse.update.configurator*3.3.200.v20140203-1328,org.hamcrest.core*1.3.0.v201303031735,org.junit*4.11.0.v201303080030"/>
+<stringAttribute key="selected_workspace_plugins" value="biz.ganttproject.core*2.5.0,ganttproject-tester*1.0.0.qualifier,net.sourceforge.ganttproject*2.0.0"/>
+<booleanAttribute key="usefeatures" value="false"/>
+</launchConfiguration>

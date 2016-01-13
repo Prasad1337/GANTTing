@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/ganttproject/lib/core/eclipsito.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ganttproject"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biz.ganttproject.core"/>
+	<classpathentry kind="lib" path="lib/itextpdf-5.3.1.jar"/>
+	<classpathentry kind="lib" path="/ganttproject/lib/core/swingx-1.6.3.jar"/>
+	<classpathentry kind="lib" path="/biz.ganttproject.core/lib/ganttproject-guava.jar"/>
+	<classpathentry kind="lib" path="lib/fop-font-metrics.jar"/>
+	<classpathentry kind="lib" path="lib/fop.jar"/>
+	<classpathentry kind="lib" path="lib/ganttproject-avalon.jar"/>
+	<classpathentry kind="lib" path="lib/ganttproject-batik.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

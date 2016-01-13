@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="lib" path="/biz.ganttproject.core/lib/ganttproject-guava.jar"/>
+	<classpathentry kind="lib" path="lib/core/AppleJavaExtensions.jar"/>
+	<classpathentry kind="lib" path="lib/core/balloontip-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/core/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/core/commons-csv.jar"/>
+	<classpathentry kind="lib" path="lib/core/commons-io.jar"/>
+	<classpathentry kind="lib" path="lib/core/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/core/commons-net-ftpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/core/eclipsito.jar"/>
+	<classpathentry kind="lib" path="lib/core/endrick-cache-1.7.9.jar"/>
+	<classpathentry kind="lib" path="lib/core/ganttproject-jxbusycomponent-1.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/core/httpclient-4.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/core/httpcore-4.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/core/jcommander-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/core/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/core/jgoodies-common-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/core/jgoodies-looks-2.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/core/jxlayer.jar"/>
+	<classpathentry kind="lib" path="lib/core/milton-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/core/milton-client-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/core/slf4j-api-1.5.11.jar"/>
+	<classpathentry kind="lib" path="lib/core/slf4j-simple-1.5.11.jar"/>
+	<classpathentry kind="lib" path="lib/core/swingx-1.6.3.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biz.ganttproject.core"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

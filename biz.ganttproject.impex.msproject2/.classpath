@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/mpxj.jar" sourcepath="/home/bard/mpxj-4.2.0/mpxj/src"/>
+	<classpathentry kind="lib" path="lib/poi-3.7-20101029.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/biz.ganttproject.core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ganttproject"/>
+	<classpathentry kind="lib" path="/ganttproject/lib/core/eclipsito.jar"/>
+	<classpathentry kind="lib" path="/biz.ganttproject.core/lib/ganttproject-guava.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

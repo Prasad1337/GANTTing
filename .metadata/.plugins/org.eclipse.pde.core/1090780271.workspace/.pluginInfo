@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="594" isBundle="false" name="Pert Plug-in" project="org.ganttproject.chart.pert" provider="">
+		<library exported="false" name="pert.jar"/>
+		<library name="resources/"/>
+	</bundle>
+	<bundle bundleID="595" isBundle="false" name="GanttProject ICal import/export" project="biz.ganttproject.impex.ical" provider="">
+		<library name="ical.jar"/>
+		<library name="lib/backport-util-concurrent-3.1.jar"/>
+		<library name="lib/commons-codec-1.5.jar"/>
+		<library name="lib/commons-lang-2.6.jar"/>
+		<library name="lib/ical4j-1.0.3.jar"/>
+	</bundle>
+	<bundle bundleID="596" isBundle="false" name="MS Project import/export" project="org.ganttproject.impex.msproject" provider="">
+		<library name="ganttproject-msproject.jar"/>
+		<library name="lib/mpxj/jaxb-api.jar"/>
+		<library name="lib/mpxj/jaxb-impl.jar"/>
+		<library name="lib/mpxj/jaxb-libs.jar"/>
+		<library name="lib/mpxj/jax-qname.jar"/>
+		<library name="lib/mpxj/mpxj.jar"/>
+		<library name="lib/mpxj/namespace.jar"/>
+		<library name="lib/mpxj/relaxngDatatype.jar"/>
+		<library name="lib/mpxj/xsdlib.jar"/>
+	</bundle>
+	<bundle bundleID="597" isBundle="false" name="Export to HTML and PDF" project="org.ganttproject.impex.htmlpdf" provider="ganttproject.org team">
+		<library name="ganttproject-htmlpdf.jar"/>
+		<library name="lib/fop.jar"/>
+		<library name="lib/fop-font-metrics.jar"/>
+		<library name="lib/ganttproject-avalon.jar"/>
+		<library name="lib/ganttproject-batik.jar"/>
+		<library name="lib/itextpdf-5.3.1.jar"/>
+		<library name="resource/"/>
+	</bundle>
+	<bundle bundleID="598" isBundle="false" name="Ganttproject Plug-in" project="ganttproject" provider="">
+		<library name="ganttproject.jar"/>
+		<library name="lib/core/AppleJavaExtensions.jar"/>
+		<library name="lib/core/balloontip-1.2.1.jar"/>
+		<library name="lib/core/commons-codec-1.4.jar"/>
+		<library name="lib/core/commons-csv.jar"/>
+		<library name="lib/core/commons-io.jar"/>
+		<library name="lib/core/commons-logging.jar"/>
+		<library name="lib/core/commons-net-ftpclient-3.0.1.jar"/>
+		<library name="lib/core/endrick-cache-1.7.9.jar"/>
+		<library name="lib/core/ganttproject-jxbusycomponent-1.2.2.jar"/>
+		<library name="lib/core/httpclient-4.2.1.jar"/>
+		<library name="lib/core/httpcore-4.2.1.jar"/>
+		<library name="lib/core/jcommander-1.17.jar"/>
+		<library name="lib/core/jdom-1.0.jar"/>
+		<library name="lib/core/jgoodies-common-1.1.1.jar"/>
+		<library name="lib/core/jgoodies-looks-2.4.0.jar"/>
+		<library name="lib/core/jxlayer.jar"/>
+		<library name="lib/core/milton-api-2.0.1.jar"/>
+		<library name="lib/core/milton-client-2.0.1.jar"/>
+		<library name="lib/core/slf4j-api-1.5.11.jar"/>
+		<library name="lib/core/slf4j-simple-1.5.11.jar"/>
+		<library name="lib/core/swingx-1.6.3.jar"/>
+		<library name="data/resources/"/>
+	</bundle>
+	<bundle bundleID="599" isBundle="false" name="GanttProject Core" project="biz.ganttproject.core" provider="">
+		<library name="ganttproject-core.jar"/>
+		<library name="lib/ganttproject-guava.jar"/>
+		<library name="resources/"/>
+	</bundle>
+	<bundle bundleID="600" localization="OSGI-INF/l10n/bundle" name="ganttproject-tester" project="ganttproject-tester">
+		<library name="lib/asm-3.3.jar"/>
+		<library name="lib/cglib-2.2.2.jar"/>
+		<library name="lib/easymock-3.0.jar"/>
+		<library name="lib/objenesis-1.2.jar"/>
+	</bundle>
+	<bundle bundleID="601" isBundle="false" name="MS Project import/export, version 2" project="biz.ganttproject.impex.msproject2" provider="">
+		<library name="ganttproject-msproject2.jar"/>
+		<library name="lib/"/>
+		<library name="lib/mpxj.jar"/>
+		<library name="lib/poi-3.7-20101029.jar"/>
+	</bundle>
+</map>
